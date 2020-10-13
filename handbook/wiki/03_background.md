@@ -49,7 +49,7 @@ If we were to set it to `255, 0, 0`, then the canvas would be completely red bec
 If we mix multiple colors, we can get any color of the rainbow. Here's how I might
 define a royal looking purple: `121, 34, 121`. And this is how it would look:
 
-![purple background](images/background_purple_.png)
+![purple background](images/background_purple.png)
 
 For the remainder of the sections, we'll change it back to black as that will match
 the outer space theme that we want for our game. In the next section, we'll talk
