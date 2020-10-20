@@ -1,11 +1,28 @@
-function setup() {
-    // code run once at the beginning of the game
-    createCanvas(730, 546);
+class Lightbulb {
+    constructor() {
+        this.cycles = 0;
+        this.maxLife = 100;
+        this.state = "off";
+        this.burnedOut = false;
+    }
+
+    turnOn() {
+        if (this.cycles > this.maxLife) {
+            this.burnedOut = true;
+            return;
+        }
+
+        this.state = "on";
+    }
+
+    turnOff() {
+        this.state = "off";
+    }
 }
 
-function draw() {
-    // code run on each frame of the game
-    background(0, 0, 0);
-    fill(255, 255, 255);
-    circle(450, 300, 30);
-}
+var light = new Lightbulb();
+console.log(`The light is ${light.state}`);
+light.turnOn();
+console.log(`The light is ${light.state}`);
+light.turnOff();
+console.log(`The light is ${light.state}`);
