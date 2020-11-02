@@ -15,7 +15,7 @@ extending it, adding new features, or maybe even fixing some bugs.
 
 # Starter Kit
 
-This repository contains a directory called "starter_kit". In order to reduce some
+This repository contains a directory called [starter_kit](starter_kit). In order to reduce some
 of the setup work for the workshop, students are encouraged to download or clone
 this repository and then open the starter_kit directory in their editor in order
 to follow along with the instruction. It provides the basic shell of the game and
@@ -23,8 +23,8 @@ the functionality will be filled in during the session.
 
 # Handbook
 
-The Wiki pages of this repository provide a handbook briefly explaining most of
-the concepts and functions that are used as part of this workshop. In it you will
-find descriptions and pictures of how each of the functions used to create the
-asteroids game works. This handbook is meant to accompany the live workshop session,
-but won't necessarily replace it.
+The [Wiki](https://github.com/NetApp-YWIT/ywit_2020_js_workshop/wiki) pages of this
+repository provide a handbook briefly explaining most of the concepts and functions
+that are used as part of this workshop. In it you will find descriptions and pictures
+of how each of the functions used to create the asteroids game works. This handbook
+is meant to accompany the live workshop session, but won't necessarily replace it.
