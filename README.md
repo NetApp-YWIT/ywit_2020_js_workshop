@@ -1,2 +1,8 @@
-# ywit_2020_js_workshop
-This repository contains materials related to the "Learn to Program with JavaScript" workshop which is part of NetApp's YWIT 2020 Conference
+# Asteroids Examples
+
+The directories on this branch contain example code for finished versions of the
+Asteroids game. Each one builds on the last and adds new features to the game.
+During the workshop, we will cover at least up through 01_basic. Students are
+encouraged to try out what they've learned during the workshop and expand on it.
+They may add their own features or use 02_asteroid_breaking or 03_score as hints
+on what to try next.
